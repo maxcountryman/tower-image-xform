@@ -1,0 +1,41 @@
+[package]
+name = "tower-image-xform"
+version = "0.1.0"
+description = "🖼️ Image transformations as a `tower` middleware."
+edition = "2021"
+homepage = "https://github.com/maxcountryman/tower-image-xform"
+license = "MIT"
+keywords = ["image", "resize", "tower", "axum", "resize-images"]
+categories = ["web-programming::http-server", "web-programming", "asynchronous"]
+repository = "https://github.com/maxcountryman/tower-image-xform"
+documentation = "https://docs.rs/tower-image-xform"
+readme = "README.md"
+
+[dependencies]
+base64 = "0.22.1"
+bytes = "1.6.0"
+futures-util = "0.3.30"
+headers-accept = "0.1.3"
+hmac = "0.12.1"
+http = "1.1.0"
+http-body = "1.0.0"
+http-body-util = "0.1.1"
+image = "0.25.1"
+mediatype = "0.19.18"
+percent-encoding = "2.3.1"
+rand = "0.8.5"
+reqwest = "0.12.4"
+sha2 = "0.10.8"
+subtle = "2.6.1"
+thiserror = "1.0.60"
+tokio = "1.37.0"
+tower-layer = "0.3.2"
+tower-service = "0.3.2"
+tracing = { version = "0.1.40", features = ["log"] }
+url = { version = "2.5.0", features = ["serde"] }
+urlencoding = "2.1.3"
+
+[dev-dependencies]
+axum = "0.7"
+tower = "0.4"
+tokio = { version = "1.37.0", features = ["full"] }
