@@ -30,7 +30,7 @@ subtle = "2.6.1"
 thiserror = "1.0.60"
 tokio = "1.37.0"
 tower-layer = "0.3.2"
-tower-service = "0.3.2"
+tower-service = "0.3.3"
 tracing = { version = "0.1.40", features = ["log"] }
 url = { version = "2.5.0", features = ["serde"] }
 urlencoding = "2.1.3"
