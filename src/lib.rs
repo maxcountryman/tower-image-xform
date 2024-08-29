@@ -13,8 +13,8 @@
 //! use tower_image_xform::{
 //!     image_type, ImageTransformerBuilder, Key, SignedUrlBuilder, SupportedImageTypes,
 //! };
-//! use url::Url;
 //!
+//! // Define image types we want to support.
 //! const SUPPORTED_IMAGE_TYPES: SupportedImageTypes = &[image_type::WEBP, image_type::PNG];
 //!
 //! #[tokio::main]
@@ -26,7 +26,7 @@
 //!         .build();
 //!
 //!     // URL construction.
-//!     let base_url: Url = "http://localhost:3000/_image/".parse()?;
+//!     let base_url = "http://localhost:3000/_image/".parse()?;
 //!     let target_url = "https://www.rustacean.net/assets/rustacean-orig-noshadow.png".parse()?;
 //!     let signed_url = SignedUrlBuilder::new()
 //!         .key(signing_key)
