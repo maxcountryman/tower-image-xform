@@ -33,9 +33,9 @@ middleware.
 
 Some things that might be nice for the future:
 
-    -[] Load images directly from object stores via S3-compatible APIs
-    -[] Additional transformations (quality, rotation, etc)
-    -[] Target encryption?
+- [ ] Load images directly from object stores via S3-compatible APIs
+- [ ] Additional transformations (quality, rotation, etc)
+- [ ] Target encryption?
 
 ## 📦 Install
 
