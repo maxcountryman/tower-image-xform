@@ -12,7 +12,7 @@ use headers_accept::Accept;
 use http::{header, HeaderMap, Request, Response};
 use http_body::Body;
 use http_body_util::Full;
-use image::{io::Reader as ImageReader, ImageFormat};
+use image::{ImageFormat, ImageReader};
 use percent_encoding::percent_decode_str;
 use tokio::task;
 use tower_service::Service;
