@@ -1,7 +1,6 @@
 **/*.rs.bk
 **/target
-**/Cargo.lock
-**/.env
+Cargo.lock
 .idea/
 .vscode/
 coverage/
