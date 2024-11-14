@@ -16,9 +16,6 @@
     <a href="https://github.com/maxcountryman/tower-image-xform/actions/workflows/rust.yml">
         <img src="https://github.com/maxcountryman/tower-image-xform/actions/workflows/rust.yml/badge.svg" />
     </a>
-    <a href="https://codecov.io/gh/maxcountryman/tower-image-xform" > 
-        <img src="https://codecov.io/gh/maxcountryman/tower-image-xform/graph/badge.svg?token=4WKTLPEGJC"/> 
-    </a>
 </div>
 
 ## 🎨 Overview
